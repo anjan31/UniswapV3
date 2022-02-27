@@ -41,7 +41,7 @@ contract LiquidityExamples is IERC721Receiver {
         address operator,
         address,
         uint256 tokenId,
-        bytes calldata
+      //  bytes calldata
     ) external override returns (bytes4) {
         // get position information
 
